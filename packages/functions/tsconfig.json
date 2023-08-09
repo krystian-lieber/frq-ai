@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/node18",
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@frq-generator/core/*": ["../core/src/*"]
+    }
+  }
+}
