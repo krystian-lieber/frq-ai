@@ -10,7 +10,7 @@
     "remove": "sst remove",
     "console": "sst console",
     "typecheck": "tsc --noEmit",
-    "secret": "sst secrets set OPENAI_KEY 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"
+    "secret": "sst secrets set OPENAI_KEY <token>"
   },
   "devDependencies": {
     "@tsconfig/node18": "^18.2.0",
