@@ -33,7 +33,8 @@ export function MainStack ({ stack }: StackContext): void {
     defaults: {
       function: {
         // Bind the table name to our API
-        bind: [table, OPENAI_KEY, generationQueue, evaluationQueue]
+        bind: [table, OPENAI_KEY, generationQueue, evaluationQueue],
+        timeout: 30
       }
     },
     routes: {

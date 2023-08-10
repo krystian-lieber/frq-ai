@@ -11,5 +11,13 @@
     "@types/aws-lambda": "^8.10.119",
     "vitest": "^0.34.1",
     "sst": "^2.23.14"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.387.0",
+    "@aws-sdk/client-sqs": "^3.387.0",
+    "@aws-sdk/lib-dynamodb": "^3.387.0",
+    "langchain": "^0.0.125",
+    "ts-is-present": "^1.2.2",
+    "zod": "^3.21.4"
   }
 }
